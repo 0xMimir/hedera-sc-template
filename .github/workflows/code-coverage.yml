@@ -21,8 +21,8 @@ jobs:
       - name: Run tests
         env:
           TESTNET_ENDPOINT: https://testnet.hashio.io/api
-          TESTNET_OPERATOR_PRIVATE_KEY: 0xd14cfce33a5056431635f8dcd0b685161524ea81ceeada09fc2b66c15444ca31
-          LOCAL_OPERATOR_PRIVATE_KEY: 0xd14cfce33a5056431635f8dcd0b685161524ea81ceeada09fc2b66c15444ca31
+          TESTNET_OPERATOR_PRIVATE_KEY: '0xd14cfce33a5056431635f8dcd0b685161524ea81ceeada09fc2b66c15444ca31'
+          LOCAL_OPERATOR_PRIVATE_KEY: '0xd14cfce33a5056431635f8dcd0b685161524ea81ceeada09fc2b66c15444ca31'
         run: |
           npm i
           npm run coverage
