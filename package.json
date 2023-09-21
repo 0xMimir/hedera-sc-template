@@ -6,7 +6,8 @@
   "scripts": {
     "test": "hardhat test",
     "setup": "hedera start",
-    "compile": "hardhat compile"
+    "compile": "hardhat compile",
+    "coverage": "hardhat coverage"
   },
   "repository": {
     "type": "git",

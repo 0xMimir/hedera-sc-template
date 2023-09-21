@@ -4,6 +4,5 @@
 /coverage
 /typechain-types
 
-package-lock.json
 .env
 coverage.json
