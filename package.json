@@ -1,0 +1,30 @@
+{
+  "name": "smart-contract-hedera-template",
+  "version": "1.0.0",
+  "description": "Template to start with developing of smart contracts on hedera network",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "setup": "hedera start",
+    "compile": "hardhat compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xMimir/smart-contract-hedera-template.git"
+  },
+  "keywords": [
+    "hedera"
+  ],
+  "author": "0xMimir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xMimir/smart-contract-hedera-template/issues"
+  },
+  "homepage": "https://github.com/0xMimir/smart-contract-hedera-template#readme",
+  "dependencies": {
+    "@hashgraph/hedera-local": "^2.14.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.3",
+    "solidity-coverage": "^0.8.4"
+  }
+}
