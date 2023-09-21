@@ -63,4 +63,6 @@ All files        |      100 |      100 |      100 |      100 |                |
 > Istanbul reports written to ./coverage/ and ./coverage.json
 ```
 
-After that html file will be generated in `coverage/index.html` that shows code coverage.
+After that html file will be generated in `coverage/index.html` that shows code coverage. In order to keep track of your code coverage go to [codecov](https://about.codecov.io/) and sign up, then setup code coverage tracking for your github repo. And just like that you can have badge on your project keeping track of your code coverage here is for this template:
+
+[![codecov](https://codecov.io/gh/0xMimir/hedera-sc-template/graph/badge.svg?token=sdLReblRxa)](https://codecov.io/gh/0xMimir/hedera-sc-template)
