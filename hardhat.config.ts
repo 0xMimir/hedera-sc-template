@@ -4,6 +4,10 @@ import 'solidity-coverage'
 
 require("dotenv").config();
 
+const LOCAL_URL = process.env.LOCAL_ENDPOINT
+  ? process.env.LOCAL_ENDPOINT
+  : 'http://localhost:7546/';
+
 const config: HardhatUserConfig = {
   solidity: "0.8.19",
   networks: {
@@ -14,7 +18,7 @@ const config: HardhatUserConfig = {
       ]
     },
     local: {
-      url: 'http://localhost:7546/',
+      url: LOCAL_URL,
       accounts: [
         process.env.LOCAL_OPERATOR_PRIVATE_KEY as string
       ]
